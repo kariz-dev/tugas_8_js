@@ -13,11 +13,11 @@ function biodata(){
     console.log(siswa);
 
     // sebelum dirubah
-    console.log(siswa.alamat);
+    console.log('sebelum dirubah :',siswa.alamat);
 
     // setelah dirubah
     siswa.alamat = 'jl.Cendana V, Jakarta Selatan'
-    console.log(siswa);
+    console.log('setelah dirubah :',siswa);
 }
 
 biodata();
